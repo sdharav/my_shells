@@ -1,4 +1,5 @@
 #!/bin/bash
+
 cd /var/log
 directories=`ls -d */`
 for directory in $directories;
