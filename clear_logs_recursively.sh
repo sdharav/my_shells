@@ -1,6 +1,11 @@
 #!/bin/bash
 
-cd /var/log
+<<README
+   supply the parent directory, in which all the log files should emptied.
+   ex: bash lear_logs_recursively.sh /var/log
+README
+
+cd $1
 directories=`ls -d */`
 for directory in $directories;
 do
