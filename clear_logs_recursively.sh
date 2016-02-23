@@ -3,6 +3,7 @@
 <<README
    supply the parent directory, in which all the log files should emptied.
    ex: bash lear_logs_recursively.sh /var/log
+   This does not work in redhat based operating systems
 README
 
 cd $1
